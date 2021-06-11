@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Ninja Quiz</title>
+</head>
+<body>
+    <!-- Top section -->
+    <div class="py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-secondary display-2 my-3">Ninja Quiz</h2>
+        </div>
+    </div>
+
+    <div class="res py-4 d-none bg-light text-center">
+        <div class="container lead">
+            <p>
+                You are <span class="text-secondary p-3 display-3">0/100</span> ninja
+            </p>
+        </div>
+    </div>
+    <!-- Quiz section -->
+    <div class="quiz bg-secondary py-4">
+        <div class="container">
+            <h2 class="my-5 text-white">Let's start.........</h2>
+            <form class="quiz-form text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-light">
+                        1. How do you give a ninja directions?
+                    </p>
+                    <div class="my-2 form-check text-white-50">
+                        <input type="radio" name="Q1" value="A" checked>
+                        <label class="form check-label">Show a map</label>
+                    </div>
+                    <div class="my-2 form-check text-white-50">
+                        <input type="radio" name="Q1" value="B">
+                        <label class="form check-label">Ninja finds you</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-light">
+                        2. 2apples, one for yoshi one for mario, left?
+                    </p>
+                    <div class="my-2 form-check text-white-50">
+                        <input type="radio" name="Q2" value="A" checked>
+                        <label class="form check-label">one</label>
+                    </div>
+                    <div class="my-2 form-check text-white-50">
+                        <input type="radio" name="Q2" value="B">
+                        <label class="form check-label">zero, two corpes</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-light">
+                        3. how do you know youve met a ninja?
+                    </p>
+                    <div class="my-2 form-check text-white-50">
+                        <input type="radio" name="Q3" value="A" checked>
+                        <label class="form check-label">ninja tells you</label>
+                    </div>
+                    <div class="my-2 form-check text-white-50">
+                        <input type="radio" name="Q3" value="B">
+                        <label class="form check-label">you use your eyes</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-light">
+                        4. what is a ninja's fav array method?
+                    </p>
+                    <div class="my-2 form-check text-white-50">
+                        <input type="radio" name="Q4" value="A" checked>
+                        <label class="form check-label">forEach()</label>
+                    </div>
+                    <div class="my-2 form-check text-white-50">
+                        <input type="radio" name="Q4" value="B">
+                        <label class="form check-label">Slice()</label>
+                    </div>
+                </div>
+                <button class="btn btn-light btn-lg">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
