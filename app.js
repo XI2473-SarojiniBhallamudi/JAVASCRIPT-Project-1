@@ -1,4 +1,4 @@
-const rightAns = ['B', 'A', 'A', 'B'];
+const rightAns = ['B', 'B', 'A', 'B'];
 const form = document.querySelector('.quiz-form');
 const res = document.querySelector('.res');
 form.addEventListener('submit',e=>{
